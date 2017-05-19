@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_edittext_shape"
+        android:drawableLeft="@drawable/search_icon"
+        android:drawablePadding="5dp"
+        android:imeOptions="actionSearch"
+        android:text="搜索"
+        android:textColor="#696969"
+        android:onClick="onclick_select"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/library_my_nemu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_01"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_mybook"
+                    android:paddingTop="25dp"
+                    android:text="我的书籍"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_02"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_history"
+                    android:paddingTop="25dp"
+                    android:text="借阅历史"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_03"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_jhgz"
+                    android:paddingTop="25dp"
+                    android:text="借还规则"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_04"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_other"
+                    android:paddingTop="25dp"
+                    android:text="新书通报"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_05"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_tspc"
+                    android:paddingTop="25dp"
+                    android:text="图书赔偿"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_06"
+                    android:gravity="top|center_horizontal"
+                    android:onClick="onclick_other"
+                    android:paddingTop="25dp"
+                    android:text="超期公告"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_07"
+                    android:onClick="onclick_select"
+                    android:paddingTop="25dp"
+                    android:text="图书检索"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_00"                    
+                    android:paddingTop="25dp"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/library_button"
+                    android:drawableTop="@drawable/library_menu_00"                   
+                    android:paddingTop="25dp"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/library_lin_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/library_my_nemu"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的再借书籍："
+                android:textColor="#363636"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/library_my_tv_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="null"
+                android:textColor="#90EE90"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="本" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/library_lin_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/library_lin_1"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我一共读了："
+                android:textColor="#363636"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/library_my_tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="null"
+                android:textColor="#90EE90"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="本" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/library_my_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/library_lin_2"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="20dp"
+            android:text="姓名"
+            android:textColor="#008B8B"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

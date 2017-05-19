@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="25dp"
+    android:id="@+id/ll_poplove"
+    android:gravity="center"
+    android:background="#c0ffffff"
+    android:paddingRight="25dp"
+    android:paddingTop="10dp">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/card_poplove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#01a3a1"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_love_object"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="对象"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_love_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:minHeight="120dp"
+                    android:text="该App使用 Android studio编写 + Material Design视觉设计语言，通过抓包的形式获取信息，喜欢的走一波！"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_love_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:singleLine="true"
+                    android:text="表白人"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_poplove2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="6dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/tv_loveone_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赞"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_loveone_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="评论"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_love_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="时间"
+                    android:textColor="#828282"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <com.sackcentury.shinebuttonlib.ShineButton
+                        android:id="@+id/sb_poploveone_like"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:elevation="10dp"
+                        app:btn_color="@android:color/darker_gray"
+                        app:btn_fill_color="#f26d7d"
+                        app:siShape="@raw/heart" />
+
+                    <com.sackcentury.shinebuttonlib.ShineButton
+                        android:id="@+id/sb_poploveone_comment"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        app:btn_color="@android:color/darker_gray"
+                        app:btn_fill_color="#996699"
+                        app:enable_flashing="true"
+                        app:shine_size="40dp"
+                        app:siShape="@drawable/ic_sms" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

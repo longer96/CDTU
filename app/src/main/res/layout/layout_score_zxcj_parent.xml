@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/score_zxcj_linear"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/score_cj" >
+
+        <TextView
+            android:id="@+id/score_parent_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="34dp"
+            android:text="null"
+            android:textColor="#313131"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/score_parent_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/score_cj"
+            android:gravity="center_vertical"
+            android:paddingRight="34dp"
+            android:text="null"
+            android:textColor="#2dc123"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

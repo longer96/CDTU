@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_course_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="35dp"
+    android:paddingTop="80dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="课堂信息"
+        android:textColor="#6fb4f5"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#6fb4f5" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/course_name"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="课名：" />
+
+        <TextView
+            android:id="@+id/popup_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="null"
+            android:textColor="#828282" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/course_location"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="教室：" />
+
+        <TextView
+            android:id="@+id/popup_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="null"
+            android:textColor="#828282" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/course_teacher"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="老师：" />
+
+        <TextView
+            android:id="@+id/popup_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="null"
+            android:textColor="#828282" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/course_day"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="周数：" />
+
+        <TextView
+            android:id="@+id/popup_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="null"
+            android:textColor="#828282" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/course_delete"
+        android:layout_width="140dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#f16408"
+        android:text="删除本节课"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</LinearLayout>

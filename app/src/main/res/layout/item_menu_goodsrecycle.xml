@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><!--主界面，可滑动表白墙卡片-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_goodsmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="2dp">
+
+        <TextView
+            android:id="@+id/tv_goods_knife"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="3dp"
+            android:background="@drawable/good_knife"
+            android:text="可小刀"
+            android:textColor="#ffffff"
+            android:textSize="9sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_goods_show"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lost_nopic"
+                android:transitionName="@string/transition_goods_img" />
+
+            <TextView
+                android:id="@+id/tv_goods_thing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="1dp"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:text="null"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="#ff853a"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_goods_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="null"
+                    android:textColor="#ff853a"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_goods_ok"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:scaleType="centerInside"
+            android:src="@drawable/lost_ok"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_goods_type"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/goods_cs" />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

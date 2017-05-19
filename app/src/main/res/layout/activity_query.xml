@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:id="@+id/library_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/real_query"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+
+            <RelativeLayout
+                android:id="@+id/qurry_re1"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/search_ll_shape">
+
+                <ImageView
+                    android:id="@+id/iv_que_back"
+                    android:layout_width="40dp"
+                    android:layout_height="38dp"
+                    android:layout_centerVertical="true"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_back2" />
+
+                <View
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/iv_que_back"
+                    android:background="#cccc" />
+
+
+                <EditText
+                    android:id="@+id/frag_query_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="1sp"
+                    android:layout_toRightOf="@+id/iv_que_back"
+                    android:background="@drawable/search_edittext_shape"
+                    android:hint="10位数学号"
+                    android:imeOptions="actionSearch"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/iv_que_serch"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_search" />
+
+                <ImageView
+                    android:id="@+id/iv_que_clear"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="14dp"
+                    android:layout_toLeftOf="@+id/iv_que_serch"
+                    android:src="@drawable/ic_close" />
+            </RelativeLayout>
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/qurry_re1"
+                android:layout_marginLeft="8dp"
+                android:paddingTop="8dp"
+                android:layout_marginRight="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_ll_shape"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/qurry_re2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#d7d5d9" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="姓名"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="性别"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_sex"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="院系"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_yuanxi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="班级"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_banji"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="电话"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_tel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="专业名称"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_zhuanye"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:visibility="gone"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="出生日期"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_birthday"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#e7e6e8" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="籍贯"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_palce"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:layout_marginLeft="24dp"
+                            android:background="#d7d5d9" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/qurry_re2"
+                        android:layout_marginBottom="200dp"
+                        android:layout_marginTop="25dp"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:background="#d7d5d9" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="24dp"
+                                android:layout_marginTop="10dp"
+                                android:text="一卡通余额"
+                                android:textColor="#8c8c8c"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/query_tv_money"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="150dp"
+                                android:layout_marginTop="10dp"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1sp"
+                            android:background="#d7d5d9" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qurry_re1"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_que_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="2dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_history" />
+
+                        <TextView
+                            android:id="@+id/tv_que_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="8dp"
+                            android:text="2014"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_que_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_history" />
+
+                        <TextView
+                            android:id="@+id/tv_que_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="8dp"
+                            android:text="2014"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_que_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_history" />
+
+                        <TextView
+                            android:id="@+id/tv_que_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="8dp"
+                            android:text="2014"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!--图片轮播类表-->
+            <com.jude.rollviewpager.RollPagerView
+                android:id="@+id/roll_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:rollviewpager_play_delay="3500" />
+
+            <!--布局包括：功能、详细列表-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--功能第一行-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#ffffff"
+                        android:orientation="horizontal">
+
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_course"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_course" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="课表" />
+
+                        </LinearLayout>
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_zfxt"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_zfxt" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="正方系统" />
+
+                        </LinearLayout>
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_library"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_library" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="图书借阅" />
+
+                        </LinearLayout>
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_money"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_card" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="消费记录" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <View style="@style/menu.view" />
+
+                    <!--功能第二行-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#ffffff"
+                        android:orientation="horizontal">
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_love"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_love" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="表白墙" />
+
+                        </LinearLayout>
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_calan"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_calen" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="校历" />
+
+                        </LinearLayout>
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_yellow"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_yellow" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="校园黄页" />
+
+                        </LinearLayout>
+
+                        <!--单个的小功能块-->
+                        <LinearLayout
+                            android:id="@+id/menu_more"
+                            style="@style/menu.Lineralayout">
+
+                            <ImageView
+                                style="@style/menu.Image"
+                                android:src="@drawable/menu_more" />
+
+                            <TextView
+                                style="@style/menu.text"
+                                android:text="更多" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <include
+                layout="@layout/menu_below"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

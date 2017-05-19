@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/library" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/library_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="《红了春秋 绿了战国》"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/library_textauthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/library_book"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:text="馆藏地点："
+                android:textColor="#9C9C9C"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/library_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/library_book"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/library_textauthor"
+                android:text=""
+                android:textColor="#9C9C9C"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/library_borrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="借书时间: "
+                    android:textColor="#363636"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/library_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="应还时间: "
+                    android:textColor="#363636"
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/library_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="续借次数: "
+                    android:textColor="#363636"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"                    
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="剩余天数: "
+                        android:layout_marginTop="2dp"                        
+                        android:textColor="#363636"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:id="@+id/library_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="null天 "
+                        android:layout_marginTop="2dp"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

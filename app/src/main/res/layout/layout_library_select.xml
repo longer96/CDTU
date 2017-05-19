@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/library_select2" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/library_select_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:text="《ANDROID应用开发实战》"                
+                android:textSize="14sp" />
+
+            <TextView                
+                android:id="@+id/library_select_author"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_height="wrap_content"
+                android:text="王家林著"
+                android:textColor="#9C9C9C"
+                android:textSize="12sp" />
+        </LinearLayout>
+       
+
+</LinearLayout>

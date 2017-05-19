@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/library_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            >
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/frag_score_zfxt"
+                android:drawableTop="@drawable/zfxt_grades"
+                android:gravity="top|center_horizontal"
+                android:onClick="onclick_score1"
+                android:paddingTop="25dp"
+                android:text="在校成绩"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/frag_score_zfxt"
+                android:drawableTop="@drawable/score_zfxt_02"
+                android:gravity="top|center_horizontal"
+                android:onClick="onclick_score2"
+                android:paddingTop="25dp"
+                android:text="等级考试"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/frag_score_zfxt"
+                android:drawableTop="@drawable/zfxt_credits"
+                android:gravity="top|center_horizontal"
+                android:onClick="onclick_score3"
+                android:paddingTop="25dp"
+                android:text="学分统计"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp" >
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/frag_score_zfxt"
+                android:drawableTop="@drawable/zfxt_classes"
+                android:gravity="top|center_horizontal"
+                android:onClick="onclick_score4"
+                android:paddingTop="25dp"
+                android:text="课表查询"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/frag_score_zfxt"
+                android:drawableTop="@drawable/zfxt_exam"
+                android:gravity="top|center_horizontal"
+                android:onClick="onclick_score5"
+                android:paddingTop="25dp"
+                android:text="考试查询"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

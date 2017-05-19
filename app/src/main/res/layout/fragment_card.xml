@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#ffffff"
+        android:id="@+id/frag_card_lv"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout>
+
+
+
+
+
+

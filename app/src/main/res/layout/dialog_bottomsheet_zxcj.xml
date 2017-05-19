@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><!--在线成绩的  学年学期的选择-->
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycle_zxcj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

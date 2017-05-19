@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--上面半透明-->
+        <View
+            android:id="@+id/view_menu_down"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="#a0ffffff" />
+
+        <!--下面功能块-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_menu_down"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--功能第一行-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_news"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_news" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="校园公告" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_car"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_car" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="校车" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_select_card"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_card_select" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="一卡通查询" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_student_select"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_student_select" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="学生查询" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!--功能第二行-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_card_tools"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_card_tools" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="一卡通工具" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_student"
+                        style="@style/menu.Lineralayout">
+
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_student" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="学生处" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_vip"
+                        style="@style/menu.Lineralayout"
+                        >
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_vip" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="免费会员" />
+
+                    </LinearLayout>
+
+                    <!--单个的小功能块-->
+                    <LinearLayout
+                        android:id="@+id/menu_store"
+                        style="@style/menu.Lineralayout"
+                        >
+                        <ImageView
+                            style="@style/menu.Image"
+                            android:src="@drawable/menu_vip" />
+
+                        <TextView
+                            style="@style/menu.text"
+                            android:text="同学的店" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉关闭"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>
+
