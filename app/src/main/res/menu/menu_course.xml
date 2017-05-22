@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_course_zz"
+        android:orderInCategory="50"
+        android:title="查看专周"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_course_setbg"
+        android:orderInCategory="50"
+        android:title="更换背景"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_course_zxsj"
+        android:orderInCategory="50"
+        android:title="教学时间表"
+        app:showAsAction="never" />
+</menu>

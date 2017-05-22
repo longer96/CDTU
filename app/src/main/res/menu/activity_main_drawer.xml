@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_menu_login"
+            android:title="个人中心" />
+        <item
+            android:id="@+id/nav_skin"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="更换主题" />
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享App" />
+            <item
+                android:id="@+id/nav_infor"
+                android:icon="@drawable/ic_menu_send"
+                android:title="关于App" />
+            <item
+                android:id="@+id/nav_comment"
+                android:icon="@drawable/ic_menu_comment"
+                android:title="求个好评" />
+        </menu>
+    </item>
+</menu>

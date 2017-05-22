@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">成都工业学院</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <drawable name="library_normal">#ffffff</drawable>
+    <drawable name="library_pressed">#f9f9f9</drawable>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="transition_goods_img" translatable="false">transition_goods_img</string>
+    <string name="transition_lost_img" translatable="false">transition_goods_img</string>
+    <string name="transition_love_img" translatable="false">transition_love_img</string>
+    <string name="transition_pictures_img" translatable="false">transition_pictures_img</string>
+    <string name="login_phone_register"><u>注册帐号</u></string>
+    <string name="login_phone_remember"><u>忘记密码?</u></string>
+    <string name="register_yhxy"><u>《用户协议》</u></string>
+
+</resources>
