@@ -180,7 +180,7 @@
          <category android:name="android.intent.category.BROWSABLE" />
 
 
-         <data android:scheme="1104732758" />
+         <data android:scheme=" /">
          </intent-filter>
          </activity>
          <activity
