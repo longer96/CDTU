@@ -8,12 +8,12 @@ Introduction
 功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
 <br>Ps：有公司看得起的望给口饭吃（流泪）
 
-实现功能
+实现功能<span id="jump">Hello World</span>  
 ----
-* App Splash页秒开（感谢图形图像专业提供的UI设计）
+* **App Splash页秒开**（感谢图形图像专业提供的UI设计）
   * 防止APP启动时白屏/黑屏  [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/52201896)  
   
-* 本校学生可通过校园帐号一键登录App
+* **本校学生可通过校园帐号一键登录App**
 
 * 学校附近的商家可以通过手机号或者QQ一键登录 ps:但是不能进行学生相关的查询
   * 短信验证码使用的是：[Bmob短信服务](http://docs.bmob.cn/sms/Android/b_developdoc/doc/index.html) 
@@ -21,7 +21,7 @@ Introduction
   * [QQ三方登录官方文档](http://wiki.open.qq.com/wiki/QQ%E7%99%BB%E5%BD%95%E5%92%8C%E6%B3%A8%E9%94%80) 
   
   
-* 课表功能的实现（个人感觉非常好看，用户体验棒）
+* **课表功能的实现**（个人感觉非常好看，用户体验棒）
   * 高校大多数都是使用正方系统，课表的数据也是从正方系统爬取解析的，解析的方法大家可以参考utils目录下StreamTools.java getcourse方法。
   * 扁平设计，大大提升内容的占有率  
   * 个性化设计，可使用系统自带背景图以及自定义背景图
@@ -88,10 +88,10 @@ Introduction
 
 
 * 跳蚤市场
- * 主界面（中规中矩），详细界面和上面的失误招领详细界面差不多就不重复了
- * 右下角FAB 的实现 参考博客：[MaterialSheetFab](https://github.com/gowong/material-sheet-fab),网上还有很多类似的就不详细介绍了
+  * 主界面（中规中矩），详细界面和上面的失误招领详细界面差不多就不重复了
+  * 右下角FAB 的实现 参考博客：[MaterialSheetFab](https://github.com/gowong/material-sheet-fab),网上还有很多类似的就不详细介绍了
   * [Material Design](https://github.com/wasabeef/awesome-android-ui)
-  * 更多福利点击
+  * 更多福利点击
  
 
 * 校园公告
@@ -135,7 +135,9 @@ Apk下载
 关于我
 ----
 即将毕业的学生，因学历压制，想找个对口的工作都不容易（工作尽心尽责，有上进心）   
-<br>★★★★★ Ps：望收留！（成都）★★★★★
+<br>★★★★★        **Ps：望收留！（成都）**   ★★★★★
 <br>如果看见这篇文章的你也想给自己的学校开发一个App、或是遇到一些问题都可以联系我
 <br>QQ：1114070859
-<br>邮箱：longer2016@qq.com
+<br>Email：longer2016@qq.com
+
+[点击跳转](#jump)
