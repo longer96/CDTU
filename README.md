@@ -1,11 +1,11 @@
 成都工业学院App
 ====
-大二时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、跳蚤市场、失物招领等等。遵循MD开发原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请去喝茶）
-<br>Ps：第一次这么认真写文章，希望有不合理的地方帮我提出   -----谢谢啦
+大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、跳蚤市场、失物招领等等。遵循MD开发原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请去喝茶）
+<br>Ps：第一次这么认真写文章，希望有不合理的地方帮我提出   --- 谢谢谢谢啦
 
 Introduction
 ----
-功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大二才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
+功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
 <br>Ps：有公司看得起的望给口饭吃（流泪）
 
 实现功能
@@ -66,7 +66,8 @@ Introduction
     * 2.[FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
   * 显示数据仿魅族通讯录（上个手机是Mx3，魅族通讯录做的真的不错）
 
-* 同学的店（还对应一个商户版，用来管理、添加商品，接单等等，学生可以自己开店） Ps：最近没时间完善了
+* 同学的店（还对应一个商户版，用来管理、添加商品，接单等等，学生可以自己开店） 
+  > Ps：最近没时间完善了
   * 左边导航栏的实现（仿外卖App以及京东） 开源项目：[VerticalTabLayout](https://github.com/qstumn/VerticalTabLayout)
   * 寝室的选择（友好的交互）  开源项目：[Carousel Picker](https://github.com/GoodieBag/CarouselPicker)
   * 店铺的选择  直接参考Store_Activity.java 中代码
@@ -87,6 +88,11 @@ Introduction
 
 
 * 跳蚤市场
+ * 主界面（中规中矩），详细界面和上面的失误招领详细界面差不多就不重复了
+ * 右下角FAB 的实现 参考博客：[MaterialSheetFab](https://github.com/gowong/material-sheet-fab),网上还有很多类似的就不详细介绍了
+  * [Material Design](https://github.com/wasabeef/awesome-android-ui)
+  * 更多福利点击
+ 
 
 * 校园公告
 
@@ -110,6 +116,17 @@ Introduction
 
 
 其他补充
+----
+* 阿狸图标
+* 图片加载框架
+* 360加固
+* 小米统计
+* 小米推送
+* QQ一键加群
+* jsoup解析网页
+* json用的自带的解析器
+
+福利
 ----
 
 Apk下载
