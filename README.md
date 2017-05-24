@@ -37,7 +37,7 @@ Introduction
   
   
   
-* **课表功能的实现**（很好看，用户体验棒）<h id="1.1">1.语法示例</h>
+* **课表功能的实现**（很好看，用户体验棒）<h2 id="1.1">1.语法示例2</h2>
   > 涉及代码：CourseActivity.java , Course_addActivity.java , Course_editActivity.java
   * 高校大多数都是使用正方系统，课表的数据也是从正方系统爬取解析的，解析的方法大家可以参考utils目录下StreamTools.java getcourse方法。
   * 扁平设计，大大提升内容的占有率  
@@ -47,7 +47,7 @@ Introduction
 
 
 * **主页轮播图的实现**
-  > 涉及代码：MainActivity.java
+  > 涉及代码：MainActivity.java<span id="1.2">1.语法示例</span>
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
   * 轮播图的实现参考 [RollViewPager](https://github.com/Jude95/RollViewPager)
