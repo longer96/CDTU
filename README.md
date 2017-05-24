@@ -10,6 +10,13 @@ Introduction
 
 实现功能[点击跳转](#anchor) [点击跳转](#jump)
 ----
+* [1.语法示例](#1)
+
+* [1.1图片](#1.1)
+
+* [1.2换行](#1.2)
+
+* [1.3强调](#1.3)
 
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
     > 涉及代码：AppSplashActivity.java
@@ -39,7 +46,7 @@ Introduction
 
 
 
-* **主页轮播图的实现**
+* **主页轮播图的实现** <h2 id="1">1.语法示例</h2>
   > 涉及代码：MainActivity.java
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
@@ -200,9 +207,9 @@ Introduction
   * [Glide的拓展(高斯模糊、加载监听、圆角图片)](http://www.jianshu.com/p/4107565955e4?open_source=weibo_search)
   
   
-* **360加固**(第三方加固平台很多，仁者见仁)
+* **应用加固**(第三方加固平台很多，仁者见仁)
   * [5大移动应用加固平台评测](http://www.cnblogs.com/redbricks/p/5666202.html)
-
+  * 该App使用的是：[360加固宝](http://jiagu.360.cn/)
 
 
 * **小米统计**
@@ -211,20 +218,24 @@ Introduction
   
   
   
-* 小米推送
+* **小米推送**
   * 推送了解：[安卓推送这件小事](https://zhuanlan.zhihu.com/p/26053061)
   * 国内做第三方推送的也有很多：[Android推送SDK哪家好？](https://www.zhihu.com/question/22354498)
   * 大家自行选择，该App使用的是：[小米推送](https://dev.mi.com/doc/p=6421/index.html)
 
-* QQ一键加群
+
+
+* **QQ一键加群**
   * 原来以为需要接入QQ Sdk才能实现，结果却是很简单：[QQ一键加群](http://qun.qq.com/join.html)
 
 
-* jsoup解析网页
+
+* **jsoup解析网页**
   * [利用Jsoup抓取数据](http://www.jianshu.com/p/b7ee086e6eae)
 
 
-* 接入分享App、跳转到应用商店评论功能
+
+* **接入分享App、跳转到应用商店评论功能**
   * 这块网上教程很多，也不复杂，博主就不啰嗦了
 
 福利
