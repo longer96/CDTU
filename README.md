@@ -47,7 +47,7 @@ Introduction
 
 
 * **主页轮播图的实现**
-  > 涉及代码：MainActivity.java<span id="1.2">1.语法示例</span>
+  > 涉及代码：MainActivity.java<span id="1.2">1.语法示例</span> <span id="jump">跳转到的地方</span>
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
   * 轮播图的实现参考 [RollViewPager](https://github.com/Jude95/RollViewPager)
