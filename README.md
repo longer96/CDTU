@@ -8,7 +8,7 @@ Introduction
 功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
 <br>Ps：有公司看得起的望给口饭吃（流泪）
 
-实现功能[点击跳转](#jump) 
+实现功能[点击跳转](#anchor) 
 ----
 
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
@@ -22,7 +22,7 @@ Introduction
 
 
 
-* **其他用户可以通过手机号或QQ一键注册、登录** <span id="jump">Hello World</span> 
+* **其他用户可以通过手机号或QQ一键注册、登录** <span id="anchor">Hello World</span> 
   > ps：但是不能进行学生相关的查询。涉及代码：Register_Activity.java , LoginPhone_Activity.java
   * 短信验证码使用的是：[Bmob短信服务](http://docs.bmob.cn/sms/Android/b_developdoc/doc/index.html) 
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
