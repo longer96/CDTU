@@ -10,14 +10,6 @@ Introduction
 
 实现功能
 ----
-* [1.语法示例](#1)
-
-* [1.1图片](#1.1)
-
-* [1.2换行](#1.2)
-
-* [1.3强调](#1.3)
-
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
     > 涉及代码：AppSplashActivity.java
   * 防止APP启动时白屏/黑屏  [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/52201896)  
@@ -29,7 +21,7 @@ Introduction
 
 
 
-* **其他用户可以通过手机号或QQ一键注册、登录** <h5 id="1">1.语法示例</h5>
+* **其他用户可以通过手机号或QQ一键注册、登录** 
   > ps：但是不能进行学生相关的查询。涉及代码：Register_Activity.java , LoginPhone_Activity.java
   * 短信验证码使用的是：[Bmob短信服务](http://docs.bmob.cn/sms/Android/b_developdoc/doc/index.html) 
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
@@ -37,7 +29,7 @@ Introduction
   
   
   
-* **课表功能的实现**（很好看，用户体验棒）<h2 id="1.1">1.语法示例2</h2>
+* **课表功能的实现**（很好看，用户体验棒）
   > 涉及代码：CourseActivity.java , Course_addActivity.java , Course_editActivity.java
   * 高校大多数都是使用正方系统，课表的数据也是从正方系统爬取解析的，解析的方法大家可以参考utils目录下StreamTools.java getcourse方法。
   * 扁平设计，大大提升内容的占有率  
@@ -47,7 +39,7 @@ Introduction
 
 
 * **主页轮播图的实现**
-  > 涉及代码：MainActivity.java<span id="1.2">1.语法示例</span> <span id="jump">跳转到的地方</span>
+  > 涉及代码：MainActivity.java
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
   * 轮播图的实现参考 [RollViewPager](https://github.com/Jude95/RollViewPager)
@@ -230,25 +222,43 @@ Introduction
 
 
 
+
 * **jsoup解析网页**
   * [利用Jsoup抓取数据](http://www.jianshu.com/p/b7ee086e6eae)
+
 
 
 
 * **接入分享App、跳转到应用商店评论功能**
   * 这块网上教程很多，也不复杂，博主就不啰嗦了
 
+
+
+
 福利
 ----
   > 自己在开发过程中收集的一些有用的干货现在全部分享出来，总的来说：个人的开发能力不强，但更愿意借助巨人的肩膀
-
+  * [最全面的 Material Design 学习资料](https://github.com/Luosunce/material-design-data)
+  * 博主每天有时间就在看的干货App：[Gank.Io非官方客户端应用](https://github.com/HotBitmapGG/gank.io-unofficial-android-client)
+  * [安卓书签网](https://github.com/ColorfulCat/AndroidGuide)
+  * [Android开发技术周报](http://www.androidweekly.cn/)
+  * 有很多不错的Demo：[开源代码](http://jcodecraeer.com/plus/list.php?tid=31&TotalResult=1359&PageNo=1)
+  * **UE、UI 相关的网站**
+     * [App整体布局参考](https://material.uplabs.com/)
+     * [RGB对照表](http://tool.oschina.net/commons?type=3)
+     * [图片在线压缩](http://zhitu.isux.us/)
+  * **RxJava 的学习**
+    * [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
+    * [RxJava是什么](http://wuxiaolong.me/2016/01/18/rxjava/)
+    * [给初学者的RxJava2.0教程](http://www.jianshu.com/p/464fa025229e)
+    * [ MVP+Retrofit+RxJava实践小结](https://zhuanlan.zhihu.com/p/22042786?utm_source=qq&utm_medium=social)
 
 
 
 Apk下载
 ----
-
-
+1. Pre.im http://pre.im/cdgyxy
+2. 应用商店搜索 “成都工业学院”
 
 
 关于我
@@ -258,6 +268,3 @@ Apk下载
 <br>如果看见这篇文章的你也想给自己的学校开发一个App、或是遇到一些问题都可以联系我
 <br>QQ：[1114070859](#null)
 <br>Email：longer2016@qq.com
-
-[点击跳转](#jump)
-[点击跳转](#jump)
