@@ -92,7 +92,7 @@ Introduction
   * 数据不是很齐全，没有官方提供数据。也迫于没有经济支持没能做大
   * 自己写的标签页，之后才发现网上有更好的 
     * 1.[FlowLayout](https://github.com/nex3z/FlowLayout)  
-    * 2.[FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+    * 2.[FlowLayout2](https://github.com/hongyangAndroid/FlowLayout)
   * 显示数据仿魅族通讯录（上个手机是Mx3，魅族通讯录做的真的不错）
 
 
@@ -255,12 +255,13 @@ Introduction
   * [Android之App瘦身攻略](http://www.jianshu.com/p/99f3c09982d4)
 
 
+
 Apk下载
 ----
-![下载Demo](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
+ ![Logo](https://github.com/longer96/CDTU/blob/master/app/src/main/res/drawable-hdpi/school_ico.png)  
 1. Pre.im http://pre.im/cdgyxy
-2. 应用商店搜索 “成都工业学院” 
-3. ![下载Demo](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
+2. 应用商店搜索 “**成都工业学院**” 
+3. [下载Demo](https://github.com/longer96/CDTU/blob/master/apk/cdtu_3.3.apk)  
 
 
 关于我
