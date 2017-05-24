@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.longer.school">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.longer.school.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.longer.school.permission.MIPUSH_RECEIVE" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.AppSplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity android:name=".view.activity.SkinActivity" />
+        <activity android:name=".view.activity.News_bodyActivity" />
+        <activity android:name=".view.activity.NewsActivity" />
+        <activity android:name=".view.activity.CourseActivity" />
+        <activity android:name=".view.activity.ZhuanzhouActivity" />
+        <activity android:name=".view.activity.Course_addActivity" />
+        <activity android:name=".view.activity.Course_editActivity" />
+        <activity android:name=".view.activity.library.Library_select_bodyActivity" />
+        <activity android:name=".view.activity.library.Library_selectActivity" />
+        <activity android:name=".view.activity.library.LibraryActivity" />
+        <activity android:name=".view.activity.Sqlite_selectActivity" />
+        <activity android:name=".view.activity.ImageActivity" />
+        <activity android:name=".view.activity.zfxt.Score_courseActivity" />
+        <activity android:name=".view.activity.zfxt.Score_kbcxActivity" />
+        <activity android:name=".view.activity.zfxt.Score_djksActivity" />
+        <activity android:name=".view.activity.zfxt.Score_zxcjActivity" />
+        <activity android:name=".view.activity.zfxt.Score_zfxtActivity" />
+        <activity android:name=".view.activity.zfxt.Score_xftjActivity" />
+        <activity android:name=".view.activity.zfxt.Score_kscxActivity" />
+        <activity android:name=".view.activity.Add_lostActivity" />
+        <activity android:name=".view.activity.LoginSchool_Activity" />
+        <activity android:name=".view.activity.Lost_Activity" />
+        <activity android:name=".view.activity.SetActivity" />
+        <activity android:name=".view.activity.QueryActivity" />
+        <activity android:name=".view.activity.Query_cardActivity" />
+        <activity android:name=".view.activity.MyLost_Activity" />
+        <activity android:name=".view.activity.Picture_Activity" />
+        <activity android:name=".view.activity.Info_Activity" />
+        <activity android:name=".view.activity.Add_goodsActivity" />
+        <activity android:name=".view.activity.Goods_Activity" />
+        <activity android:name=".view.activity.MyGoods_Activity" />
+        <activity android:name=".view.activity.Yellow_Activity" />
+        <activity android:name=".view.activity.Calan_Activity" />
+        <activity android:name=".view.activity.LoveActivity" />
+        <activity android:name=".view.activity.Add_loveActivity" />
+        <activity android:name=".view.activity.CardToolsActivity" />
+        <activity android:name=".view.activity.StudentActivity" />
+        <activity android:name=".view.activity.Card_Activity" />
+        <activity android:name=".view.activity.SignUp_Activity" />
+        <activity
+            android:name=".view.activity.LoveOne_Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".view.activity.Cengfan_Activity"/>
+        <activity android:name=".view.activity.LoginPhone_Activity"/>
+        <activity android:name=".view.activity.User_Activity"/>
+        <activity android:name=".view.activity.Register_Activity"/>
+        <activity android:name=".view.activity.UserInfor_Activity"/>
+        <activity android:name=".view.activity.Store_Activity"/>
+        <activity android:name=".view.activity.WebView_Activity"/>
+
+
+        <!-- alipay sdk begin -->
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- alipay sdk end -->
+
+
+        <!-- 小米推送 begin -->
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":pushservice" />
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process=":pushservice" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".utils.mipush.MiMessageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 小米推送 end -->
+
+
+         <!--QQ登录-->
+         <activity
+         android:name="com.tencent.tauth.AuthActivity"
+         android:launchMode="singleTask"
+         android:noHistory="true">
+         <intent-filter>
+         <action android:name="android.intent.action.VIEW" />
+
+
+         <category android:name="android.intent.category.DEFAULT" />
+         <category android:name="android.intent.category.BROWSABLE" />
+
+
+         <data android:scheme="" />
+         </intent-filter>
+         </activity>
+         <activity
+         android:name="com.tencent.connect.common.AssistActivity"
+         android:configChanges="orientation|keyboardHidden|screenSize"
+         android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    </application>
+
+</manifest>

@@ -252,13 +252,15 @@ Introduction
     * [RxJava是什么](http://wuxiaolong.me/2016/01/18/rxjava/)
     * [给初学者的RxJava2.0教程](http://www.jianshu.com/p/464fa025229e)
     * [ MVP+Retrofit+RxJava实践小结](https://zhuanlan.zhihu.com/p/22042786?utm_source=qq&utm_medium=social)
-
+  * [Android之App瘦身攻略](http://www.jianshu.com/p/99f3c09982d4)
 
 
 Apk下载
 ----
+![下载Demo](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
 1. Pre.im http://pre.im/cdgyxy
-2. 应用商店搜索 “成都工业学院”
+2. 应用商店搜索 “成都工业学院” 
+3. ![下载Demo](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
 
 
 关于我
