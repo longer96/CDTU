@@ -258,7 +258,9 @@ Introduction
 
 Apk下载
 ----
- ![Logo](https://github.com/longer96/CDTU/blob/master/app/src/main/res/drawable-hdpi/school_ico.png)  
+ ![Logo](https://github.com/longer96/CDTU/blob/master/app/src/main/res/drawable-hdpi/school_ico.png) 
+  ![Logo](https://github.com/longer96/CDTU/blob/master/images/01.gif)
+ <br>![Logo](https://github.com/longer96/CDTU/blob/master/images/02.gif) 
 1. Pre.im http://pre.im/cdgyxy
 2. 应用商店搜索 “**成都工业学院**” 
 3. [下载Demo](https://github.com/longer96/CDTU/blob/master/apk/cdtu_3.3.apk)  
