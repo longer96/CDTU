@@ -8,7 +8,7 @@ Introduction
 功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
 <br>Ps：有公司看得起的望给口饭吃（流泪）
 
-实现功能[点击跳转](#anchor) [点击跳转](#jump)
+实现功能
 ----
 * [1.语法示例](#1)
 
@@ -29,7 +29,7 @@ Introduction
 
 
 
-* **其他用户可以通过手机号或QQ一键注册、登录** <span id="anchor">Hello World</span>  <span id="jump">跳转到的地方</span>
+* **其他用户可以通过手机号或QQ一键注册、登录** <h5 id="1">1.语法示例</h5>
   > ps：但是不能进行学生相关的查询。涉及代码：Register_Activity.java , LoginPhone_Activity.java
   * 短信验证码使用的是：[Bmob短信服务](http://docs.bmob.cn/sms/Android/b_developdoc/doc/index.html) 
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
@@ -37,7 +37,7 @@ Introduction
   
   
   
-* **课表功能的实现**（很好看，用户体验棒）
+* **课表功能的实现**（很好看，用户体验棒）<h id="1.1">1.语法示例</h>
   > 涉及代码：CourseActivity.java , Course_addActivity.java , Course_editActivity.java
   * 高校大多数都是使用正方系统，课表的数据也是从正方系统爬取解析的，解析的方法大家可以参考utils目录下StreamTools.java getcourse方法。
   * 扁平设计，大大提升内容的占有率  
@@ -46,7 +46,7 @@ Introduction
 
 
 
-* **主页轮播图的实现** <h2 id="1">1.语法示例</h2>
+* **主页轮播图的实现**
   > 涉及代码：MainActivity.java
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
