@@ -4,7 +4,9 @@
 <br>大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、失物招领等等。遵循MD设计原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请回去喝茶）
 <br>Ps：第一次这么认真写文章，有不合理的地方希望大家提出   --- 谢谢谢谢啦
 <br>
+<br>
 
+----
 Introduction
 ----
 功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
@@ -42,7 +44,7 @@ Introduction
   * 扁平设计，大大提升内容的占有率  
   * 个性化设计，可使用系统自带背景图以及自定义背景图
   * 用户可编辑课程，查看学期安排以及教学时间表
-
+  
 
 <br><br>
 * **主页轮播图的实现**
@@ -126,6 +128,7 @@ Introduction
    * 同时附上2个图片压缩框架（该项目未使用，是自己写的） 
      * [CompressHelper](https://github.com/nanchen2251/CompressHelper)  
      * [Tiny](https://github.com/Sunzxyong/Tiny)
+   <br><br>![投票选择](https://raw.githubusercontent.com/YancyYe/ImageSelector/master/resource/gif_1.gif)
 
 <br><br>
 * **跳蚤市场**
@@ -252,7 +255,7 @@ Introduction
   * [安卓书签网](https://github.com/ColorfulCat/AndroidGuide)
   * [Android开发技术周报](http://www.androidweekly.cn/)
   * 有很多不错的Demo：[开源代码](http://jcodecraeer.com/plus/list.php?tid=31&TotalResult=1359&PageNo=1)
-  
+  * [Android 资源大全中文版](https://github.com/jobbole/awesome-android-cn)
   
   * **UE、UI 相关的网站**
      * [App整体布局参考](https://material.uplabs.com/)
