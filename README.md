@@ -34,7 +34,7 @@ Introduction
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
   * 中间还涉及到手机号码的验证，介绍一个好用的工具集合：[AndroidUtilCode](http://www.jianshu.com/p/72494773aace)
   * [QQ三方登录官方文档](http://wiki.open.qq.com/wiki/QQ%E7%99%BB%E5%BD%95%E5%92%8C%E6%B3%A8%E9%94%80) 
-   <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%B3%A8%E5%86%8C.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/QQ%E7%99%BB%E5%BD%95.gif"/>
+   <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%B3%A8%E5%86%8C.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/QQ%E7%99%BB%E5%BD%95.gif"/>
   
 <br><br>
 * **课表功能的实现**（很好看，用户体验棒）
@@ -44,7 +44,7 @@ Introduction
   * 扁平设计，大大提升内容的占有率  
   * 个性化设计，可使用系统自带背景图以及自定义背景图
   * 用户可编辑课程，查看学期安排以及教学时间表
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E5%B1%95%E7%A4%BA.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%83%8C%E6%99%AF.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/课表添加课.gif"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E5%B1%95%E7%A4%BA.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%83%8C%E6%99%AF.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/课表添加课.gif"/>
 
  
  
