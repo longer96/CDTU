@@ -1,24 +1,30 @@
 成都工业学院App
 ====
+![Logo](https://github.com/longer96/CDTU/blob/master/images/logo.png)
 大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、失物招领等等。遵循MD设计原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请回去喝茶）
 <br>Ps：第一次这么认真写文章，有不合理的地方希望大家提出   --- 谢谢谢谢啦
+<br>
 
 Introduction
 ----
 功能的实现主要是通过模拟网页登录，通过抓包和爬虫获取数据，底层都是HttpClient写的（当时大一才接触Android，Httpclient已被官方废弃）。正往Mvp + RXjava 转型，在校期间有空就在更新软件，校内好评度很高，现毕业设计之后开源。
 <br>Ps：有公司看得起的望给口饭吃（流泪）
 
+
+
+![img]()
 实现功能
 ----
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
     > 涉及代码：AppSplashActivity.java
   * 防止APP启动时白屏/黑屏  [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/52201896)  
+  ![秒开](https://github.com/longer96/CDTU/blob/master/images/%E7%A7%92%E5%BC%80.gif)
   
   
 * **本校学生通过校园帐号登录**
     > 涉及代码：LoginSchool_Activity.java
   * 若作为刚接触的同学可以参考，写的很详细（大佬绕道）：更多补充_模拟网页登录
-
+    ![img](https://github.com/longer96/CDTU/blob/master/images/%E6%A0%A1%E5%9B%AD%E5%8F%B7%E7%99%BB%E5%BD%95.gif)
 
 
 * **其他用户可以通过手机号或QQ一键注册、登录** 
@@ -27,7 +33,7 @@ Introduction
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
   * 中间还涉及到手机号码的验证，介绍一个好用的工具集合：[AndroidUtilCode](http://www.jianshu.com/p/72494773aace)
   * [QQ三方登录官方文档](http://wiki.open.qq.com/wiki/QQ%E7%99%BB%E5%BD%95%E5%92%8C%E6%B3%A8%E9%94%80) 
-  
+  ![注册](https://github.com/longer96/CDTU/blob/master/images/%E6%B3%A8%E5%86%8C.gif)   ![QQ登录](https://github.com/longer96/CDTU/blob/master/images/QQ%E7%99%BB%E5%BD%95.gif)
   
   
 * **课表功能的实现**（很好看，用户体验棒）
