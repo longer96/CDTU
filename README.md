@@ -1,6 +1,7 @@
 成都工业学院App
 ====
 ![Logo](https://github.com/longer96/CDTU/blob/master/images/logo.png)
+<img width="80" height="80" src="https://github.com/longer96/CDTU/blob/master/images/logo.png"/>
 <br>大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、失物招领等等。遵循MD设计原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请回去喝茶）
 <br>Ps：第一次这么认真写文章，有不合理的地方希望大家提出   --- 谢谢谢谢啦
 <br>
@@ -21,6 +22,7 @@ Introduction
     > 涉及代码：AppSplashActivity.java
   * 防止APP启动时白屏/黑屏  [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/52201896)  
   <br><br>![秒开](https://github.com/longer96/CDTU/blob/master/images/%E7%A7%92%E5%BC%80.gif)
+  <img width="200" height="200" src="https://github.com/longer96/CDTU/blob/master/images/%E7%A7%92%E5%BC%80.gif"/>
   
 <br><br>
 * **本校学生通过校园帐号登录**
