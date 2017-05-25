@@ -25,6 +25,7 @@ Introduction
   > ps：但是不能进行学生相关的查询。涉及代码：Register_Activity.java , LoginPhone_Activity.java
   * 短信验证码使用的是：[Bmob短信服务](http://docs.bmob.cn/sms/Android/b_developdoc/doc/index.html) 
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
+  * 中间还涉及到手机号码的验证，介绍一个好用的工具集合：[AndroidUtilCode](http://www.jianshu.com/p/72494773aace)
   * [QQ三方登录官方文档](http://wiki.open.qq.com/wiki/QQ%E7%99%BB%E5%BD%95%E5%92%8C%E6%B3%A8%E9%94%80) 
   
   
@@ -91,8 +92,8 @@ Introduction
   > 涉及代码：Yellow_Activity.java , Sqlite_selectActivity.java
   * 数据不是很齐全，没有官方提供数据。也迫于没有经济支持没能做大
   * 自己写的标签页，之后才发现网上有更好的 
-    * 1.[FlowLayout](https://github.com/nex3z/FlowLayout)  
-    * 2.[FlowLayout2](https://github.com/hongyangAndroid/FlowLayout)
+    * [FlowLayout](https://github.com/nex3z/FlowLayout)  
+    * [FlowLayout2](https://github.com/hongyangAndroid/FlowLayout)
   * 显示数据仿魅族通讯录（上个手机是Mx3，魅族通讯录做的真的不错）
 
 
