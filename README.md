@@ -14,7 +14,7 @@ Introduction
 
 
 
- ![img]()
+ <br><br>![img]()
 实现功能
 ----
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
@@ -44,8 +44,10 @@ Introduction
   * 扁平设计，大大提升内容的占有率  
   * 个性化设计，可使用系统自带背景图以及自定义背景图
   * 用户可编辑课程，查看学期安排以及教学时间表
-  
-
+  <br><br>![课表](https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E5%B1%95%E7%A4%BA.gif) ![课表](https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%83%8C%E6%99%AF.gif)  ![img](https://github.com/longer96/CDTU/blob/master/images/课表添加课.gif)
+  <br>![11](https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8.png)
+ 
+ 
 <br><br>
 * **主页轮播图的实现**
   > 涉及代码：MainActivity.java
