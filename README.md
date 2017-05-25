@@ -1,7 +1,6 @@
 成都工业学院App
 ====
-<img width="80" height="80" src="https://github.com/longer96/CDTU/blob/master/images/logo.png"/>
-<br>
+<img width="125" height="125" src="https://github.com/longer96/CDTU/blob/master/images/logo.png"/>
 <br>大一时针对我校开发的校园客户端，方便学生查课表、成绩、一卡通消费记录、失物招领等等。遵循MD设计原则，数据大多通过抓包获取，现开源（已屏蔽学校相关信息，怕被请回去喝茶）
 <br>Ps：第一次这么认真写文章，有不合理的地方希望大家提出   --- 谢谢谢谢啦
 <br>
@@ -15,19 +14,18 @@ Introduction
 
 
 
- <br><br>![img]()
 实现功能
 ----
 * **App Splash页秒开**（感谢图形图像专业提供的UI设计）
     > 涉及代码：AppSplashActivity.java
   * 防止APP启动时白屏/黑屏  [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/52201896)  
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E7%A7%92%E5%BC%80.gif"/>
+  <br><br> <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E7%A7%92%E5%BC%80.gif"/>
   
 <br><br>
 * **本校学生通过校园帐号登录**
     > 涉及代码：LoginSchool_Activity.java
   * 若作为刚接触的同学可以参考后面补充，写的很详细（大佬绕道）：**更多补充_模拟网页登录**
-     <br><br>![img](https://github.com/longer96/CDTU/blob/master/images/%E6%A0%A1%E5%9B%AD%E5%8F%B7%E7%99%BB%E5%BD%95.gif)
+     <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%A0%A1%E5%9B%AD%E5%8F%B7%E7%99%BB%E5%BD%95.gif"/>
 
 <br><br>
 * **其他用户可以通过手机号或QQ一键注册、登录** 
@@ -36,17 +34,18 @@ Introduction
   * 同时推荐使用阿里大于的短信验证API：[阿里大于](http://www.alidayu.com/) 
   * 中间还涉及到手机号码的验证，介绍一个好用的工具集合：[AndroidUtilCode](http://www.jianshu.com/p/72494773aace)
   * [QQ三方登录官方文档](http://wiki.open.qq.com/wiki/QQ%E7%99%BB%E5%BD%95%E5%92%8C%E6%B3%A8%E9%94%80) 
-   <br><br>![注册](https://github.com/longer96/CDTU/blob/master/images/%E6%B3%A8%E5%86%8C.gif)   ![QQ登录](https://github.com/longer96/CDTU/blob/master/images/QQ%E7%99%BB%E5%BD%95.gif)
+   <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%B3%A8%E5%86%8C.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/QQ%E7%99%BB%E5%BD%95.gif"/>
   
 <br><br>
 * **课表功能的实现**（很好看，用户体验棒）
   > 涉及代码：CourseActivity.java , Course_addActivity.java , Course_editActivity.java
   * 高校大多数都是使用正方系统，课表的数据也是从正方系统爬取解析的，解析的方法大家可以参考utils目录下StreamTools.java getcourse方法。
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8.png"/>
   * 扁平设计，大大提升内容的占有率  
   * 个性化设计，可使用系统自带背景图以及自定义背景图
   * 用户可编辑课程，查看学期安排以及教学时间表
-  <br><br>![课表](https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E5%B1%95%E7%A4%BA.gif) ![课表](https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%83%8C%E6%99%AF.gif)  ![img](https://github.com/longer96/CDTU/blob/master/images/课表添加课.gif)
-  <br>![11](https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8.png)
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E5%B1%95%E7%A4%BA.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%83%8C%E6%99%AF.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/课表添加课.gif"/>
+
  
  
 <br><br>
@@ -55,6 +54,7 @@ Introduction
   * 预览图使用的是学校的风景图，后台可更换图片url、数量、添加事件。
     * 图片是挂在在  [花瓣网](http://huaban.com/)   上的（自己服务器带宽小，学生党伤不起）
   * 轮播图的实现参考 [RollViewPager](https://github.com/Jude95/RollViewPager)
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE.gif"/>
 
 
 <br><br>
@@ -66,6 +66,7 @@ Introduction
   * 更多功能菜单的实现,可下载查看布局文件app_bar_main.xml    [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/51938425)
   * 水平RecyclerView的使用，相关博客：[RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap)
   * 场景过度动画 可百度`Shared Element Transition`
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA2.gif"/>
 
 
 <br><br>
@@ -73,7 +74,7 @@ Introduction
   > 涉及代码：LoveActivity.java , LoveOne_Activity.java
   * 点赞动画的实现 [ShineButton](https://github.com/ChadCSong/ShineButton)
   * 文字墙效果的实现 [文字飞入、飞出效果](https://github.com/qiushi123/randomlayout)
-  
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%A1%A8%E7%99%BD%E5%A2%99.gif"/>
  
 <br><br> 
 * **图书馆**
@@ -82,13 +83,13 @@ Introduction
     * 学生可以查询所借图书，历史借阅
     * 可以查询图书信息，检索图书（有时间可以深入完成高级检索功能）
     * 学生可以查询图书馆相关信息
-    
+    <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%BB%E9%A1%B5.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/>
     
 <br><br>    
 * **一卡通消费记录**
   > 涉及代码：Card_Activity.java 
   * 下拉刷新，上拉加载  刷新效果参考：[WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)
-  
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%B6%88%E8%B4%B9%E8%AE%B0%E5%BD%95.gif"/>
   
 <br><br>  
 * **正方系统** 
@@ -96,6 +97,8 @@ Introduction
   * 在校成绩（查成绩很方便，期末app经常挤爆）
   * 课表查询
   * 等级考试、学分统计、考室查询（有时间可以扩展更多功能  如：一键评教、一键选课）
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E5%88%86%E7%BB%9F%E8%AE%A1.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%80%83%E5%AE%A4%E6%9F%A5%E8%AF%A2.png"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.gif"/>
 
 
 <br><br>
@@ -106,6 +109,8 @@ Introduction
     * [FlowLayout](https://github.com/nex3z/FlowLayout)  
     * [FlowLayout2](https://github.com/hongyangAndroid/FlowLayout)
   * 显示数据仿魅族通讯录（上个手机是Mx3，魅族通讯录做的真的不错）
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E6%A0%A1%E9%BB%84%E9%A1%B5.gif"/>
+
 
 
 <br><br>
@@ -116,6 +121,7 @@ Introduction
   * 店铺的选择  直接参考Store_Activity.java 中代码
   * 底部购物车的实现 [参考博客](http://blog.csdn.net/qq_17766199/article/details/53726062)
   * 加入购物车动画可参考 开源项目：[ShoppingCartAnimation](https://github.com/captain-miao/ShoppingCartAnimation)
+ <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%90%8C%E5%AD%A6%E7%9A%84%E5%BA%97.gif"/>
  
  
 <br><br> 
@@ -131,7 +137,9 @@ Introduction
    * 同时附上2个图片压缩框架（该项目未使用，是自己写的） 
      * [CompressHelper](https://github.com/nanchen2251/CompressHelper)  
      * [Tiny](https://github.com/Sunzxyong/Tiny)
-   <br><br>![投票选择](https://raw.githubusercontent.com/YancyYe/ImageSelector/master/resource/gif_1.gif)
+   <br><br><img width="200px" style="max-width:100%;" src="https://raw.githubusercontent.com/YancyYe/ImageSelector/master/resource/gif_1.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%86_%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%87.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%861.gif"/>
+
+
 
 <br><br>
 * **跳蚤市场**
@@ -139,12 +147,15 @@ Introduction
   * 主界面（中规中矩），详细界面和上面的失误招领详细界面差不多就不重复了
   * 右下角FAB 的实现 参考博客：[MaterialSheetFab](https://github.com/gowong/material-sheet-fab),网上还有很多类似的就不详细介绍了
   * [Material Design](https://github.com/wasabeef/awesome-android-ui)
-  * 更多福利点击
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA.jpg"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%B1%95%E5%BC%80.jpg"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%95%86%E5%93%81%E8%AF%A6%E7%BB%86.jpg"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%8F%91%E5%B8%83.jpg"/>
+ 
  
 <br><br>
 * **校园公告**
   > 涉及代码：NewsActivity.java , News_bodyActivity.java
   * 抓取我校校园公告数据简单的显示  连接：[校园公告](http://www.cdtu.edu.cn/lanmuliebiao.jsp?urltype=tree.TreeTempUrl&wbtreeid=1012)
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%A0%A1%E5%9B%AD%E5%85%AC%E5%91%8A.gif"/>
 
 
 <br><br>
