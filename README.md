@@ -66,7 +66,7 @@ Introduction
   * 更多功能菜单的实现,可下载查看布局文件app_bar_main.xml    [参考博客](http://blog.csdn.net/yanzhenjie1003/article/details/51938425)
   * 水平RecyclerView的使用，相关博客：[RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap)
   * 场景过度动画 可百度`Shared Element Transition`
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA2.gif"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E5%B1%95%E7%A4%BA2.gif"/>
 
 
 <br><br>
@@ -83,7 +83,7 @@ Introduction
     * 学生可以查询所借图书，历史借阅
     * 可以查询图书信息，检索图书（有时间可以深入完成高级检索功能）
     * 学生可以查询图书馆相关信息
-    <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%BB%E9%A1%B5.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/>
+    <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%BB%E9%A1%B5.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D.png"/>
     
 <br><br>    
 * **一卡通消费记录**
@@ -97,8 +97,8 @@ Introduction
   * 在校成绩（查成绩很方便，期末app经常挤爆）
   * 课表查询
   * 等级考试、学分统计、考室查询（有时间可以扩展更多功能  如：一键评教、一键选课）
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E5%88%86%E7%BB%9F%E8%AE%A1.png"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%80%83%E5%AE%A4%E6%9F%A5%E8%AF%A2.png"/>
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.gif"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E5%88%86%E7%BB%9F%E8%AE%A1.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%80%83%E5%AE%A4%E6%9F%A5%E8%AF%A2.png"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.gif"/>
 
 
 <br><br>
@@ -137,7 +137,7 @@ Introduction
    * 同时附上2个图片压缩框架（该项目未使用，是自己写的） 
      * [CompressHelper](https://github.com/nanchen2251/CompressHelper)  
      * [Tiny](https://github.com/Sunzxyong/Tiny)
-   <br><br><img width="200px" style="max-width:100%;" src="https://raw.githubusercontent.com/YancyYe/ImageSelector/master/resource/gif_1.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%86_%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%87.gif"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%861.gif"/>
+   <br><br><img width="200px" style="max-width:100%;" src="https://raw.githubusercontent.com/YancyYe/ImageSelector/master/resource/gif_1.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%86_%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%87.gif"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%A4%B1%E7%89%A9%E6%8B%9B%E9%A2%861.gif"/>
 
 
 
@@ -147,8 +147,8 @@ Introduction
   * 主界面（中规中矩），详细界面和上面的失误招领详细界面差不多就不重复了
   * 右下角FAB 的实现 参考博客：[MaterialSheetFab](https://github.com/gowong/material-sheet-fab),网上还有很多类似的就不详细介绍了
   * [Material Design](https://github.com/wasabeef/awesome-android-ui)
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA.jpg"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%B1%95%E5%BC%80.jpg"/>
-  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%95%86%E5%93%81%E8%AF%A6%E7%BB%86.jpg"/><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%8F%91%E5%B8%83.jpg"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA.jpg"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%B1%95%E5%BC%80.jpg"/>
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%95%86%E5%93%81%E8%AF%A6%E7%BB%86.jpg"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E8%B7%B3%E8%9A%A4%E5%B8%82%E5%9C%BA_%E5%8F%91%E5%B8%83.jpg"/>
  
  
 <br><br>
@@ -166,6 +166,8 @@ Introduction
     * [MaterialSearchView](https://github.com/MiguelCatalan/MaterialSearchView) 
     * [MaterialSearchBar](https://github.com/mancj/MaterialSearchBar) 
     * [PersistentSearch](https://github.com/KieronQuinn/PersistentSearch) 
+    <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E7%94%9F%E6%9F%A5%E8%AF%A2.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E7%94%9F%E6%9F%A5%E8%AF%A22.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%80%E5%8D%A1%E9%80%9A%E6%9F%A5%E8%AF%A2.jpg"/>
+
 
 
 <br><br>
@@ -176,7 +178,7 @@ Introduction
     * [FrescoImageViewer](https://github.com/stfalcon-studio/FrescoImageViewer)
   * 网络图片加载框架用的是：[Glide图片加载](http://www.jianshu.com/p/4a3177b57949)，有很多优秀的图片加载框架博文中也有提到
     * Glide加载圆图、白边圆图、高斯模糊见：[更多补充](#jump)
-
+<br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%A0%A1%E5%8E%86.png"/>  <img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%AD%A6%E7%94%9F%E5%A4%84.gif"/>
 
 <br><br>
 * **关于App**
