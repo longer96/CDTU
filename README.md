@@ -184,19 +184,22 @@ Introduction
   > 涉及代码：Info_Activity.java
   * 检查更新（打开App就有自动更新，分为强制和非强制更新，自己写的可以参考）
   * 滑动折叠的实现可以参考：[博客](http://www.jianshu.com/p/f22c0f50ac3f)
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E5%85%B3%E4%BA%8EApp.gif"/>
 
 <br><br>
 * **校园消息通知**（若有消息，主界面显示，一般用于通知学校相关活动，以及学生会相关）
-
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%BB%E9%A1%B5%E6%B6%88%E6%81%AF%E5%B1%95%E7%A4%BA.png"/>
 
 <br><br>
 * **换肤框架**（自己写的比较渣，简单略过）
   > 涉及代码：SkinActivity.java
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E6%8D%A2%E8%82%A4.gif"/>
 
 <br><br>
 * **一卡通改密、挂失**
   > 涉及代码：CardToolsActivity.java
   * 使用Material-dialogs接受用户的输入
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/%E4%B8%80%E5%8D%A1%E9%80%9A%E6%8C%82%E5%A4%B1.png"/>
 
 
 
@@ -224,6 +227,7 @@ Introduction
   * [使用方法及简介](https://mrfu.me/2016/02/27/Glide_Getting_Started/)
   * [Glide加载圆形图片，设置白色边框](http://blog.csdn.net/u010694658/article/details/53539486)
   * [Glide的拓展(高斯模糊、加载监听、圆角图片)](http://www.jianshu.com/p/4107565955e4?open_source=weibo_search)
+  <br><br><img width="200px" style="max-width:100%;" src="https://github.com/longer96/CDTU/blob/master/images/glide%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.png"/>
   
 <br><br>  
 * **应用加固**(第三方加固平台很多，仁者见仁)
