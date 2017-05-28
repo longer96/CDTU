@@ -144,12 +144,9 @@ public class QueryActivity extends AppCompatActivity {
         iv_clear = (ImageView) findViewById(R.id.iv_que_clear);
         iv_clear.setVisibility(View.GONE);
 
-        iv_clear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        iv_clear.setOnClickListener(v->
                 et_username.setText("");
-            }
-        });
+           );
         findViewById(R.id.real_query).setBackgroundColor(Color.parseColor(FileTools.getshareString("refreshcolor")));
         findViewById(R.id.iv_que_back).setOnClickListener(new View.OnClickListener() {
             @Override
